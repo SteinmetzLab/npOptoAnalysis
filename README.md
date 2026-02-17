@@ -1,5 +1,8 @@
 # Neuropixels Opto Network Effects Dataset
 
+[![DOI](https://zenodo.org/badge/1160242635.svg)](https://doi.org/10.5281/zenodo.18673526)
+
+
 ## Overview
 
 This dataset contains neuropixels opto recordings from mouse cortex and stimulation data. This data supports analysis of spatially-resolved neural responses to optogenetic activation and inactivation across different power levels and emitter locations. Mice expressed DLX2.0-ChrimsonR-tdTomato (addgene #59171)
@@ -143,7 +146,6 @@ def load_session(session_dir):
         "amplitude_cutoff":    np.load(os.path.join(session_dir, "clusters.amplitudeCutoff.npy")),
         "trough_to_peak":      np.load(os.path.join(session_dir, "clusters.troughToPeak.npy")),
         "peak_channel":        np.load(os.path.join(session_dir, "clusters.peakChannel.npy")),
-        # Stim (pre-filtered)
         "stim_times":     np.load(os.path.join(session_dir, "stim.times.npy")),
         "emission_sites":  np.load(os.path.join(session_dir, "stim.emissionSites.npy")),
         "power_mW":        np.load(os.path.join(session_dir, "stim.powerMW.npy")),
