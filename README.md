@@ -197,4 +197,4 @@ print(f"Power range: {m['power_range_mW'][0]:.4f} – {m['power_range_mW'][1]:.4
 
 For questions about the dataset:  
 **aladd38@uw.edu**  
-**nsteinme@uw.edu**
+**nick.steinmetz@gmail.com**
